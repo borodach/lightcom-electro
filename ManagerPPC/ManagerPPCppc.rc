@@ -1,0 +1,438 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\ManagerPPCppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SCAN_OPTIONS DIALOG  0, 0, 147, 133
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Параметры сканирования"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SCAN_DEPTH,103,4,40,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MERCURY64,2,45,142,63,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | ES_NUMBER | WS_VSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,2,115,42,14,BS_FLAT
+    PUSHBUTTON      "Сохранить",IDAPPLY,48,115,42,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,94,115,42,14,BS_FLAT
+    CONTROL         "",IDC_SCAN_DEPTH_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,132,1,12,14,WS_EX_STATICEDGE
+    LTEXT           "Глубина чтения таблицы мощностей (мес.):",IDC_STATIC,4,4,89,17
+    LTEXT           "Серийные номера счётчиков Меркурий с 128Kб памяти:",IDC_STATIC,4,25,109,17
+END
+
+IDD_CUSTOMER_PROP DIALOG  0, 0, 153, 60
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства потребителя"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CUSTOMER_NAME,63,2,85,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_POWER_LIMIT,63,21,56,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,4,43,50,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,69,43,50,14,BS_FLAT
+    LTEXT           "Название потребителя:",IDC_STATIC,4,2,49,19
+    LTEXT           "Максимальная нагрузка (кВт):",IDC_STATIC,4,20,58,20
+    CONTROL         "",IDC_POWER_LIMIT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,136,20,11,14,WS_EX_STATICEDGE
+END
+
+IDD_COUNTER_PROP DIALOG  0, 0, 144, 94
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства счетчика"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_COUNTER_SERIAL,77,3,64,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_TYPE,77,20,64,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_KTN,29,38,55,15,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_KTT,29,54,55,15,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,4,77,50,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,91,77,50,14,BS_FLAT
+    LTEXT           "Серийный номер:",IDC_STATIC,4,6,65,8
+    LTEXT           "КТН:",IDC_STATIC,4,41,22,8
+    LTEXT           "КТТ:",IDC_STATIC,4,57,23,8
+    CONTROL         "",IDC_KTN_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,86,38,11,15,WS_EX_STATICEDGE
+    CONTROL         "",IDC_KTT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,86,55,11,15,WS_EX_STATICEDGE
+    LTEXT           "Тип счетчика:",IDC_STATIC,4,23,65,8
+END
+
+IDD_ABOUT DIALOG  0, 0, 133, 102
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе ЛайтКом Электро Менеджер версия 1.0"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         1010,IDC_LOGO_BOX,"Static",SS_BITMAP,1,64,49,36
+    EDITTEXT        IDC_ABOUT,1,0,131,58,ES_MULTILINE | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "OK",IDC_BUTTON1,82,86,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Утилита конфигурирования ЛайтКом Энерго"
+            VALUE "CompanyName", "ЛайтКом"
+            VALUE "FileDescription", "ЛайтКом Энерго Менеджер"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ManagerPPC.exe"
+            VALUE "LegalCopyright", "2007 (c) ЛайтКом.  Все права зарезервированы."
+            VALUE "LegalTrademarks", "ЛайтКом Энерго Менеджер 1.0"
+            VALUE "OriginalFilename", "ManagerPPC.exe"
+            VALUE "ProductName", "ЛайтКом Энерго Менеджер"
+            VALUE "ProductVersion", "1.1.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SCAN_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 144
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_CUSTOMER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 57
+    END
+
+    IDD_COUNTER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 141
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 132
+        BOTTOMMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Manager.ico"
+IDI_ICON6               ICON                    "res\\icon6.ico"
+IDI_ICON5               ICON                    "res\\Icon5.ico"
+IDI_ICON4               ICON                    "res\\Icon2_1.ico"
+IDI_ICON3               ICON                    "res\\Icon2.ico"
+IDI_ICON2               ICON                    "res\\Icon1.ico"
+IDI_ICON1               ICON                    "res\\Icon4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_DEFAULT_MENU MENU 
+BEGIN
+    POPUP "Default Menu"
+    BEGIN
+        MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+IDR_CUSTOMER_MENU MENU 
+BEGIN
+    POPUP "Customer Menu"
+    BEGIN
+        MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+        MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+        MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+        MENUITEM SEPARATOR
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+IDR_COUNTER_MENU MENU 
+BEGIN
+    POPUP "Counter Menu"
+    BEGIN
+        MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+        MENUITEM "Посмотреть журнал",           ID_COUNTER_LOG
+        MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+IDR_COMMANDS_MENU MENU 
+BEGIN
+    POPUP "&Команды"
+    BEGIN
+        MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+        MENUITEM "Параметры сканирования...",   ID_SCAN_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+        MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+        MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+        MENUITEM "Посмотреть журнал сканирования", ID_COUNTER_LOG
+        MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+    END
+END
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        POPUP "&Файл"
+        BEGIN
+            MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+            MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+            MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+            MENUITEM SEPARATOR
+            MENUITEM "В&ыход",                      ID_APP_EXIT
+        END
+        POPUP "&Команды"
+        BEGIN
+            MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+            MENUITEM "Параметры сканирования...",   ID_SCAN_OPTIONS
+            MENUITEM SEPARATOR
+            MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+            MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+            MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+            MENUITEM SEPARATOR
+            MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+            MENUITEM "Посмотреть журнал сканирования", ID_COUNTER_LOG
+            MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+        END
+        POPUP "&Справка"
+        BEGIN
+            MENUITEM "&О программе...",             ID_APP_ABOUT
+        END
+    END
+END
+
+IDR_MAIN_MENU MENU 
+BEGIN
+    POPUP "Меню"
+    BEGIN
+        MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+        MENUITEM "Параметры сканирования...",   ID_SCAN_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+        MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+        MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+        MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+        MENUITEM SEPARATOR
+        MENUITEM "&О программе...",             ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "В&ыход",                      ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDC_LOGO                BITMAP                  "..\\Mercury.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "Не удалось инициализировать библиотеку OLE. Пожалуйста, убедитесь что используется корректная версия библиотеки OLE."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ЛайтКом Электро Менеджер"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ЛайтКом Электро Менеджер"
+    AFX_IDS_IDLEMESSAGE     "Готов"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Показать информацию о программе, её версии и правах на неё.\nО программе"
+    ID_APP_EXIT             "Выйти из программы; предлагает сохранить файл потребителей\nВыход"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Показать или скрыть панель инструментов\nПоказать или скрыть панель инструментов"
+    ID_VIEW_STATUS_BAR      "Показать или скрыть строку состояния\nПоказать или скрыть строку состояния"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REFRESH_TREE         "Перечитать файл потребителей и обновить дерево."
+    ID_DELETE_COUNTER       "Удалить выбранный счетчик."
+    ID_EDIT_COUNTER         "Редактировать свойства выбранного счетчика."
+    ID_ADD_COUNTER          "Добавить новый счетчик."
+    ID_DELETE_CUSTOMER      "Удалить выбранного потребителя."
+    ID_EDIT_CUSTOMER        "Редактировать свойства выбранного потребителя."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ADD_CUSTOMER         "Добавить нового потребителя."
+    ID_CLEAR_CUSTOMERS      "Удалить всех потребителей."
+    ID_SAVE_CUSTOMERS       "Сохранить список потребителей."
+    ID_COUNTER_LOG          "Показать лог сканирования счетчика."
+    ID_SCAN_OPTIONS         "Открыть диалог параметров сканирования счетчиков."
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\ManagerPPCppc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

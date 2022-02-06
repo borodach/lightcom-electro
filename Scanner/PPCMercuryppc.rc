@@ -1,0 +1,192 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\PPCMercuryppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PPCMERCURY_DIALOG DIALOG  0, 0, 160, 113
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "ЛайтКом Электро Сканер 1.1.1"
+FONT 9, "Microsoft Sans Serif"
+BEGIN
+    PUSHBUTTON      "Старт",IDC_SCAN,2,101,26,11
+    PUSHBUTTON      "?",IDC_ABOUT_BTN,120,101,14,11
+    EDITTEXT        IDC_OUTPUT,2,0,155,98,ES_MULTILINE | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Копировать",IDC_COPY,69,101,47,11
+    CONTROL         "Мощность",IDC_READ_POWER,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_PUSHLIKE | WS_TABSTOP,30,101,38,11
+END
+
+IDD_ABOUT DIALOG  0, 0, 133, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе ЛайтКом Электро Сканер версия 1.1.1"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         1010,IDC_LOGO_BOX,"Static",SS_BITMAP,1,54,49,36
+    EDITTEXT        IDC_ABOUT,1,0,131,53,ES_MULTILINE | ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "OK",IDC_BUTTON1,82,78,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e4"
+        BEGIN
+            VALUE "Comments", "Утилита чтения данных из электросчетчиков"
+            VALUE "CompanyName", "ЛайтКом"
+            VALUE "FileDescription", "Утилита чтения данных из электросчетчиков"
+            VALUE "FileVersion", "1.1.1.1"
+            VALUE "InternalName", "Scanner.exe"
+            VALUE "LegalCopyright", "2006 © ЛайтКом.  Все права зарезервированы."
+            VALUE "LegalTrademarks", "ЛайтКом Электро Сканер 1.1.1"
+            VALUE "OriginalFilename", "Scanner.exe"
+            VALUE "ProductName", "ЛайтКом Электро Сканер"
+            VALUE "ProductVersion", "1.1.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PPCMERCURY_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 157
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 132
+        BOTTOMMARGIN, 92
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDC_LOGO                BITMAP                  "..\Mercury.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PPCMercury.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\PPCMercuryppc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

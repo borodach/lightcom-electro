@@ -1,0 +1,601 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:PPCInstaller"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"SccProjectName" = "8:\"$/LightCom/C++/Electro/PPCInstaller\", GQBAAAAA"
+"SccLocalPath" = "8:."
+"SccAuxPath" = "8:"
+"SccProvider" = "8:MSSCCI:Microsoft Visual SourceSafe"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_059B1C0BD98D43B2A2B713FDB5194A22"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0E666FD9891842C3A159798F4452F004"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_53AC7DFE95F0469598F8EECBE5222FF3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_615B08BC8D994C1E8CEF013E12F41541"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_72DBB866D70F465EABC940A5E814DEEE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_76FB19887D7944D7B3087C930E101E64"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7A30635732DD4268AD7A799DD9C85F8C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_82C296C8CEDF49648D37CA6CAD1DECD4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A59E4D9BAB0F48E6B127B76EF54447EA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A6A955B3068A4331AFAB5830A79B8D46"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AF0C5AE4DF394FEA82C72E0D14A019F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B369FA0B52BE4EA4B16A34895C7C2B78"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D63632A1344B4FBA8BD0BC9B3E73083B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DF659E371D814AB59B09B1093D73A114"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E11E96AC9D6842BE9D0D928457B5CAD9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E95C420F718B44E78412C5B0FCD0EDBE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F66ABF6218674717BED480C4736A3B00"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\LightComEnergo.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\LightComEnergo.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_059B1C0BD98D43B2A2B713FDB5194A22"
+            {
+            "SourcePath" = "8:..\\Sounds\\ConnectionOK.wav"
+            "TargetName" = "8:ConnectionOK.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0E666FD9891842C3A159798F4452F004"
+            {
+            "SourcePath" = "8:Files\\ReadMe.txt"
+            "TargetName" = "8:ReadMe.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_DB747EBC3051476D9234552D1458CBDE"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_615B08BC8D994C1E8CEF013E12F41541"
+            {
+            "SourcePath" = "8:..\\Sounds\\LogScanCompleted.wav"
+            "TargetName" = "8:LogScanCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_76FB19887D7944D7B3087C930E101E64"
+            {
+            "SourcePath" = "8:..\\Sounds\\PowerScanError.wav"
+            "TargetName" = "8:PowerScanError.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_7A30635732DD4268AD7A799DD9C85F8C"
+            {
+            "SourcePath" = "8:..\\Sounds\\Interrupted.wav"
+            "TargetName" = "8:Interrupted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_82C296C8CEDF49648D37CA6CAD1DECD4"
+            {
+            "SourcePath" = "8:..\\Sounds\\PowerScanStarted.wav"
+            "TargetName" = "8:PowerScanStarted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A59E4D9BAB0F48E6B127B76EF54447EA"
+            {
+            "SourcePath" = "8:..\\Sounds\\PowerMonthCompleted.wav"
+            "TargetName" = "8:PowerMonthCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_AF0C5AE4DF394FEA82C72E0D14A019F1"
+            {
+            "SourcePath" = "8:..\\Sounds\\FatalError.wav"
+            "TargetName" = "8:FatalError.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B369FA0B52BE4EA4B16A34895C7C2B78"
+            {
+            "SourcePath" = "8:..\\Sounds\\ConnectionFailed.wav"
+            "TargetName" = "8:ConnectionFailed.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D63632A1344B4FBA8BD0BC9B3E73083B"
+            {
+            "SourcePath" = "8:..\\Sounds\\BaseScanCompleted.wav"
+            "TargetName" = "8:BaseScanCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_DF659E371D814AB59B09B1093D73A114"
+            {
+            "SourcePath" = "8:..\\Sounds\\ScanCompleted.wav"
+            "TargetName" = "8:ScanCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_E11E96AC9D6842BE9D0D928457B5CAD9"
+            {
+            "SourcePath" = "8:..\\Sounds\\PowerScanCompleted.wav"
+            "TargetName" = "8:PowerScanCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_E95C420F718B44E78412C5B0FCD0EDBE"
+            {
+            "SourcePath" = "8:..\\Sounds\\EnergyScanCompleted.wav"
+            "TargetName" = "8:EnergyScanCompleted.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F66ABF6218674717BED480C4736A3B00"
+            {
+            "SourcePath" = "8:..\\Sounds\\PowerScanLostConnection.wav"
+            "TargetName" = "8:PowerScanLostConnection.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_484D9054198A47F89B0C4EC20518CBB1"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_104C15C7FDD043D694B3958D0715E9FA"
+            {
+            "Name" = "8:#1919"
+            "Condition" = "8:"
+            "Property" = "8:%CE17%"
+                "Folders"
+                {
+                }
+            }
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_51DCB1B345884EFB95FA81AC17030865"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_484D9054198A47F89B0C4EC20518CBB1"
+                    {
+                    "Name" = "8:Sounds"
+                    "Condition" = "8:"
+                    "Property" = "8:_C0A3CD21592340428EA2155BAB8DF5F8"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_DB747EBC3051476D9234552D1458CBDE"
+                    {
+                    "Name" = "8:Keys"
+                    "Condition" = "8:"
+                    "Property" = "8:_A2850B8550BC41088BDAEE3DF81F7ED9"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:Energo"
+        "Manufacturer" = "8:LightCom"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:5.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_53AC7DFE95F0469598F8EECBE5222FF3"
+            {
+            "SourcePath" = "8:..\\Inspector\\Pocket PC 2003 (ARMV4)\\Release\\Inspector.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:Release|Pocket PC 2003 (ARMV4)"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{C430EF19-589E-43CD-8AF4-C2B9E5D59178}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_72DBB866D70F465EABC940A5E814DEEE"
+            {
+            "SourcePath" = "8:..\\ManagerPPC\\Pocket PC 2003 (ARMV4)\\Release\\ManagerPPC.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:Release|Pocket PC 2003 (ARMV4)"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{32A31A19-C7DA-44EA-A944-D303616C3C73}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_A6A955B3068A4331AFAB5830A79B8D46"
+            {
+            "SourcePath" = "8:..\\Scanner\\Pocket PC 2003 (ARMV4)\\Release\\Scanner.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:Release|Pocket PC 2003 (ARMV4)"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{8B2E247B-9DB9-49C7-89CB-3A7BAF3B125B}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_09FFB90BF0A2495BAC05DE88B3CCFAC9"
+            {
+            "Name" = "8:LightCom Inspector"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_53AC7DFE95F0469598F8EECBE5222FF3"
+            "Folder" = "8:_104C15C7FDD043D694B3958D0715E9FA"
+            "WorkingFolder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_251253D2F6824D849FF374682F3B2DD7"
+            {
+            "Name" = "8:LightCom Scanner"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_A6A955B3068A4331AFAB5830A79B8D46"
+            "Folder" = "8:_104C15C7FDD043D694B3958D0715E9FA"
+            "WorkingFolder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_E068A23E1A1B402EAAC8218D2E5B4BAE"
+            {
+            "Name" = "8:LightCom Manager"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_72DBB866D70F465EABC940A5E814DEEE"
+            "Folder" = "8:_104C15C7FDD043D694B3958D0715E9FA"
+            "WorkingFolder" = "8:_51DCB1B345884EFB95FA81AC17030865"
+            }
+        }
+    }
+}

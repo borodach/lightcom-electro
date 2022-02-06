@@ -1,0 +1,435 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\Manager.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Manager.ico"
+IDI_ICON6               ICON                    "res\\icon6.ico"
+IDI_ICON5               ICON                    "res\\Icon5.ico"
+IDI_ICON4               ICON                    "res\\Icon2_1.ico"
+IDI_ICON3               ICON                    "res\\Icon2.ico"
+IDI_ICON2               ICON                    "res\\Icon1.ico"
+IDI_ICON1               ICON                    "res\\Icon4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+        MENUITEM SEPARATOR
+        MENUITEM "В&ыход",                      ID_APP_EXIT
+    END
+    POPUP "&Вид"
+    BEGIN
+        MENUITEM "&Панель инструментов",        ID_VIEW_TOOLBAR
+        MENUITEM "&Строка состояния",           ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Команды"
+    BEGIN
+        MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+        MENUITEM "Параметры сканирования...",   ID_SCAN_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+        MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+        MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+        MENUITEM SEPARATOR
+        MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+        MENUITEM "Посмотреть журнал сканирования", ID_COUNTER_LOG
+        MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+    END
+    POPUP "&Справка"
+    BEGIN
+        MENUITEM "&О программе...",             ID_APP_ABOUT
+    END
+END
+
+IDR_DEFAULT_MENU MENU 
+BEGIN
+    POPUP "Default Menu"
+    BEGIN
+        MENUITEM "Добавить потребителя...",     ID_ADD_CUSTOMER
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+IDR_CUSTOMER_MENU MENU 
+BEGIN
+    POPUP "Customer Menu"
+    BEGIN
+        MENUITEM "Свойства потребителя...",     ID_EDIT_CUSTOMER
+        MENUITEM "Добавить счетчик...",         ID_ADD_COUNTER
+        MENUITEM "Удалить потребителя",         ID_DELETE_CUSTOMER
+        MENUITEM SEPARATOR
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+IDR_COUNTER_MENU MENU 
+BEGIN
+    POPUP "Counter Menu"
+    BEGIN
+        MENUITEM "Свойства счетчика...",        ID_EDIT_COUNTER
+        MENUITEM "Посмотреть журнал сканирования", ID_COUNTER_LOG
+        MENUITEM "Удалить счётчик",             ID_DELETE_COUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Очистить список потребителей", ID_CLEAR_CUSTOMERS
+        MENUITEM "Перечитать список потребителей", ID_REFRESH_TREE
+        MENUITEM "Сохранить список потребителей", ID_SAVE_CUSTOMERS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F5,          ID_REFRESH_TREE,        VIRTKEY, NOINVERT
+    "S",            ID_SAVE_CUSTOMERS,      VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Manager"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "ЛайтКом Электро Менеджер версия 1.0",IDC_STATIC,40,10,188,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    PUSHBUTTON      "OK",IDOK,178,31,50,16,BS_FLAT | WS_GROUP
+END
+
+IDR_MAINFRAME DIALOG  0, 0, 330, 17
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_THICKFRAME
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_CUSTOMER_PROP DIALOG  0, 0, 219, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства потребителя"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_CUSTOMER_NAME,75,3,139,14,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_POWER_LIMIT,75,22,139,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,35,56,50,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,134,56,50,14,BS_FLAT
+    LTEXT           "Название потребителя:",IDC_STATIC,4,2,67,19
+    LTEXT           "Максимальная нагрузка (кВт):",IDC_STATIC,4,20,66,18
+    CONTROL         "",IDC_POWER_LIMIT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,203,22,11,14,WS_EX_STATICEDGE
+END
+
+IDD_COUNTER_PROP DIALOG  0, 0, 183, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства счетчика"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_COUNTER_SERIAL,76,3,104,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_TYPE,76,20,104,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_KTN,29,38,55,15,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_KTT,125,38,55,15,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,4,61,50,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,130,61,50,14,BS_FLAT
+    LTEXT           "Серийный номер:",IDC_STATIC,4,6,65,8
+    LTEXT           "КТН:",IDC_STATIC,4,41,22,8
+    LTEXT           "КТТ:",IDC_STATIC,97,41,23,8
+    CONTROL         "",IDC_KTN_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,75,35,11,15,WS_EX_STATICEDGE
+    CONTROL         "",IDC_KTT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,169,35,11,15,WS_EX_STATICEDGE
+    LTEXT           "Тип счетчика:",IDC_STATIC,4,23,65,8
+END
+
+IDD_VIEWER_DLG DIALOG  0, 0, 318, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Журнал сканирования счетчика"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_LOG_VIEW,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,0,0,318,178,WS_EX_STATICEDGE
+END
+
+IDD_SCAN_OPTIONS DIALOG  0, 0, 203, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Параметры сканирования"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_SCAN_DEPTH,160,2,40,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MERCURY64,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | ES_NUMBER | WS_VSCROLL | WS_TABSTOP,2,26,198,183,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,2,215,50,14,BS_FLAT
+    PUSHBUTTON      "Сохранить",IDAPPLY,75,215,50,14,BS_FLAT
+    PUSHBUTTON      "Отменить",IDCANCEL,150,215,50,14,BS_FLAT
+    CONTROL         "",IDC_SCAN_DEPTH_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,188,1,12,14,WS_EX_STATICEDGE
+    LTEXT           "Глубина чтения таблицы мощностей (мес.):",IDC_STATIC,2,4,152,8
+    LTEXT           "Серийные номера счётчиков Меркурий с 128Kб памяти:",IDC_STATIC,2,16,191,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Программа для работы с результатами сканирования счетчиков."
+            VALUE "CompanyName", "ООО ЛайтКом"
+            VALUE "FileDescription", "Программа для работы с результатами сканирования счетчиков."
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Manager.exe"
+            VALUE "LegalCopyright", "2006, ЛайтКом Электро Менеджер  (c) ООО ЛайтКом.  Все права защищены."
+            VALUE "LegalTrademarks", "ЛайтКом Электро Менеджер (с)"
+            VALUE "OriginalFilename", "Manager.exe"
+            VALUE "ProductName", "ЛайтКом Электро Менеджер"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDR_MAINFRAME, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_CUSTOMER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 214
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_COUNTER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 180
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_VIEWER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_SCAN_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 200
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "Не удалось инициализировать библиотеку OLE. Пожалуйста, убедитесь что используется корректная версия библиотеки OLE."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ЛайтКом Электро Менеджер"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ЛайтКом Электро Менеджер"
+    AFX_IDS_IDLEMESSAGE     "Готов"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Показать информацию о программе, её версии и правах на неё.\nО программе"
+    ID_APP_EXIT             "Выйти из программы; предлагает сохранить файл потребителей\nВыход"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Показать или скрыть панель инструментов\nПоказать или скрыть панель инструментов"
+    ID_VIEW_STATUS_BAR      "Показать или скрыть строку состояния\nПоказать или скрыть строку состояния"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REFRESH_TREE         "Перечитать файл потребителей и обновить дерево."
+    ID_DELETE_COUNTER       "Удалить выбранный счетчик."
+    ID_EDIT_COUNTER         "Редактировать свойства выбранного счетчика."
+    ID_ADD_COUNTER          "Добавить новый счетчик."
+    ID_DELETE_CUSTOMER      "Удалить выбранного потребителя."
+    ID_EDIT_CUSTOMER        "Редактировать свойства выбранного потребителя."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ADD_CUSTOMER         "Добавить нового потребителя."
+    ID_CLEAR_CUSTOMERS      "Удалить всех потребителей."
+    ID_SAVE_CUSTOMERS       "Сохранить список потребителей."
+    ID_COUNTER_LOG          "Показать лог сканирования счетчика."
+    ID_SCAN_OPTIONS         "Открыть диалог параметров сканирования счетчиков."
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\Manager.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
